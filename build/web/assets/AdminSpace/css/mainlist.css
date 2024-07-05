@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 7, 2024, 12:56:03 AM
+    Author     : quandba
+*/
+
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-col{
+    flex-direction: column;
+}
+.m-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+:root{
+    --play: running;
+    --direction: normal;
+    --duration: 71.8219s;
+    --delay: 0s;
+    --iteration-count: infinite;
+    --pause-on-hover: running;
+    --pause-on-click: running;
+    --gradient-color: rgba(255, 255, 255, 1), rgba(255, 255, 255, 0);
+    --gradient-width: 200px;   
+}
+.header{
+    width: 100%;
+    height: 78px;
+    justify-content: space-around;
+    position: fixed;
+    cursor: pointer;
+    align-items: center;
+    z-index: 5;
+    top:0px;
+    left: 0px;
+    background: rgba(15,23,42,.75);
+}
+.header__logo img{
+    width: 120px;
+    height: 100%;
+    border-radius: 100rem;
+    flex-shrink: 0;
+    border-style: dashed;
+}
+.header__nav{
+    align-items: center;
+
+}
+.header__nav a{ 
+    font-size: 24px;
+    font-weight: 300px;
+    line-height: 28px;
+    color: white;
+    font-family: 'Lilita One', cursive;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 8px 0 8px;
+}
+.header__nav a:hover{
+    color :darkorange;
+    padding: 4px 14px;
+    background-color: #934bfd;
+    border-radius: 12px;
+}
+.header__icon{
+    align-items: center;
+}
+.header__mobile{
+    display: none;
+}
